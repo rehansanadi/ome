@@ -1,0 +1,220 @@
+html{
+    height: 100%;
+    font-family: 'Roboto', 'Lucida Sans', 'Lucida Grande', sans-serif;
+
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header{
+    flex-basis: 10%;
+    box-shadow:0px 0px 5px grey;
+
+}
+
+nav{
+    height: 100%;
+    padding: 10px 10px ;
+
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.logo{
+    max-height: 50px;
+
+}
+
+.online-status{
+    font-size: 20px; 
+    font-weight: bold;
+    color: skyblue;
+    
+}
+
+main{
+    height: 100%;
+    margin: 10px;
+    padding: 0;
+    flex-basis: 90%;
+}
+
+.main-container{
+    padding: 20px 100px;
+}
+
+.monitored-text{
+    font-weight: bold;
+    padding: 5px;
+    background-color: lightgreen;
+    justify-content: center;
+    flex-direction: column-reverse;
+    text-align: center;
+    margin: 20px 0;
+
+}
+
+.start-chat{
+    font-size: 20px;
+    margin-bottom:10px;
+}
+
+
+.action-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ 
+
+}
+
+.action-button{
+    margin: 12px;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+
+.action-button a {
+    background-color: lightgreen;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: poppins;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+
+/** ....Video Chat.html css */
+
+.video_chat_main_container{
+
+    height: 100%;
+    margin:0;
+    padding: 0;
+    flex-basis: 90%;
+} 
+
+.video_chat_container{
+   display: flex;
+   height: 100%;
+   width:100%;
+
+}
+
+.video-tag-container{
+    margin-top: 10px;
+    margin-right: 5px;
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.videos{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    
+}
+
+.video-player{
+    flex-basis: 50%;
+
+}
+
+video{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: rgb(63, 62, 62);
+
+}
+
+/* chat area css */
+
+.chat-container{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+}
+
+.chat-text-container{
+    flex-basis:80%;
+
+}
+
+.next-chat-container{
+    flex-basis: 20%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+.next-chat{
+    display: flex;
+    flex-basis: 15%;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0 0 5px grey;
+    margin: 5px;
+    font-family: poppins;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    pointer-events: none;
+    background-color: aquamarine;
+}
+
+.type-message{
+    flex-basis: 70%;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0 0 5px grey;
+    height: auto;
+    width: 100%;
+    margin-top:px;
+    margin-bottom: 5px;
+    
+}
+
+#msg-input{
+    width: 99%;
+    height: 91%;
+    outline: none;
+    border:1px solid lightgrey;
+    padding:5px;
+}
+
+.msg-send-button{
+    display: flex;
+    flex-basis: 15%;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0 0 5px grey;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: poppins;
+    background-color: aquamarine;
+}
